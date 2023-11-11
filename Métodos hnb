@@ -6,9 +6,9 @@ package metodos;
 
 /**
  *
- * @author Hogar
+ * @author Hnb
  */
-public class Metodos {
+public class Métodos hnb {
 public static int sumar(int a, int b){
     return a+b;
 }
