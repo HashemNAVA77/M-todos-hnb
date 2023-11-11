@@ -6,33 +6,33 @@ package metodos;
 
 /**
  *
- * @author Hnb
+ * @author HNB
  */
-public class Métodos hnb {
+public class Metodos hnb {
 public static int sumar(int a, int b){
     return a+b;
 }
-public static int resta(int c, int e){
-    return c-e;
+public static int resta(int a, int b){
+    return a-b;
 }
-public static int divicion(int f, int g){
-    return f/g;
+public static int divicion(int a, int b){
+    return a/b;
 }
-public static int multiplicacion(int h, int i){
-    return h*i;
+public static int multiplicacion(int a, int b){
+    return a*b;
 }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int resultado =Metodos.sumar(5,2);
+        int resultado =Metodos.sumar(8,2);
         System.out.println("suma es:"+ resultado);
-         int resul =Metodos.resta(5,2);
-        System.out.println("resta es:" + resultado);
-         int resultadoos =Metodos.divicion(5,2);
-        System.out.println("divicion es:"+ resultado);
-         int resultadoss =Metodos.multiplicacion(5,2);
-        System.out.println("multiplicacion  es:"+ resultado);
+         int resula =Metodos.resta(7,2);
+        System.out.println("resta es:" + resula);
+         int resl=Metodos.divicion(3,2);
+        System.out.println("divicion es:"+ resl);
+         int resultadoss =Metodos.multiplicacion(9,2);
+        System.out.println("multiplicacion  es:"+ resultadoss);
         
         // TODO code application logic here
     }
